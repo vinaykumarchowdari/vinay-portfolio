@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .dark-mode-toggle {
+    margin-right: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, rgb(124, 10, 237), #dc87eb);
+    color: white;
+  }
+  
+  .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #ff6347;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .card-section {
+    background: #9b0874;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .card {
+    background: rgb(3, 227, 52);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-links a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    background: #0073b1;
+    padding: 0.5rem 1rem;
+    color: rgb(208, 14, 219);
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #contact {
+    text-align: center; /* Center the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures it's centered vertically within the section */
+    background-color: aqua; /* Set the background color to aqua */
+    padding: 2rem;
+  }
+  
+  #contact p {
+    margin: 0.5rem 0;
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+  }
+  
+  .social-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    background-color: #0073b1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .social-links a:hover {
+    background-color: #005f8e;
+  }
+  
